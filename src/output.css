@@ -558,12 +558,44 @@ video {
   margin: auto;
 }
 
+.mb-\[30px\] {
+  margin-bottom: 30px;
+}
+
+.mb-\[50px\] {
+  margin-bottom: 50px;
+}
+
+.mt-\[30px\] {
+  margin-top: 30px;
+}
+
+.mt-\[40px\] {
+  margin-top: 40px;
+}
+
+.mb-\[\] {
+  margin-bottom: ;
+}
+
+.mb-\[20px\] {
+  margin-bottom: 20px;
+}
+
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
 }
 
 .hidden {
   display: none;
+}
+
+.w-\[90\%\] {
+  width: 90%;
 }
 
 .max-w-\[1200px\] {
@@ -578,40 +610,102 @@ video {
   justify-content: space-between;
 }
 
-.gap-\[30px\] {
-  gap: 30px;
-}
-
-.gap-\[60px\] {
-  gap: 60px;
+.gap-\[100px\] {
+  gap: 100px;
 }
 
 .gap-\[40px\] {
   gap: 40px;
 }
 
-.gap-\[0px\] {
-  gap: 0px;
+.gap-\[30px\] {
+  gap: 30px;
 }
 
-.gap-\[80px\] {
-  gap: 80px;
+.rounded {
+  border-radius: 0.25rem;
 }
 
-.gap-\[90px\] {
-  gap: 90px;
+.rounded-\[40px\] {
+  border-radius: 40px;
 }
 
-.gap-\[100px\] {
-  gap: 100px;
+.bg-blue-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(191 219 254 / var(--tw-bg-opacity, 1));
+}
+
+.bg-blue-950 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(23 37 84 / var(--tw-bg-opacity, 1));
 }
 
 .p-\[20px\] {
   padding: 20px;
 }
 
+.px-\[10px\] {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.px-\[15px\] {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.px-\[20px\] {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.py-\[10px\] {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.py-\[5px\] {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.py-\[8px\] {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.text-\[35px\] {
+  font-size: 35px;
+}
+
+.text-blue-950 {
+  --tw-text-opacity: 1;
+  color: rgb(23 37 84 / var(--tw-text-opacity, 1));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
 @media (min-width: 1024px) {
+  .lg\:inline {
+    display: inline;
+  }
+
   .lg\:flex {
     display: flex;
+  }
+
+  .lg\:w-\[45\%\] {
+    width: 45%;
+  }
+
+  .lg\:w-\[40\%\] {
+    width: 40%;
+  }
+
+  .lg\:text-\[70px\] {
+    font-size: 70px;
   }
 }
