@@ -553,3 +553,65 @@ video {
 [hidden]:where(:not([hidden="until-found"])) {
   display: none;
 }
+
+.m-auto {
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+.max-w-\[1200px\] {
+  max-width: 1200px;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-\[30px\] {
+  gap: 30px;
+}
+
+.gap-\[60px\] {
+  gap: 60px;
+}
+
+.gap-\[40px\] {
+  gap: 40px;
+}
+
+.gap-\[0px\] {
+  gap: 0px;
+}
+
+.gap-\[80px\] {
+  gap: 80px;
+}
+
+.gap-\[90px\] {
+  gap: 90px;
+}
+
+.gap-\[100px\] {
+  gap: 100px;
+}
+
+.p-\[20px\] {
+  padding: 20px;
+}
+
+@media (min-width: 1024px) {
+  .lg\:flex {
+    display: flex;
+  }
+}
